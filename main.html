@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <style>
+        
+        @font-face {
+            font-family: 'Aggravo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+            font-weight: 700;
+            font-display: swap;
+            
+        }
+        /*body{font-family: 'Aggravo';}*/
+
+        .container{
+            position: relative;
+            width: auto;
+            height: auto;
+            border: 1px solid black;
+        }
+
+        h1 {
+            color: green;
+            text-align: center;
+            font-size: 200%;
+        }
+
+        header {
+            padding: 10px;
+            border: 1px solid green;
+            position: relative;
+        }
+
+
+        a{
+            border: 1px solid black;
+            margin: 5%;
+            padding: 5%; 
+            background-color: darkgrey;
+            position: relative;
+            width: 20%;
+            text-decoration: none;
+
+            display: inline-block; /* 모바일로 봐도 크기 안 줄게 */
+        }
+
+        a:hover{
+            transform: scale(1.2);
+            background-color: aqua; 
+            transition-duration: 0.5s;
+
+        }
+
+
+        .row{
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        
+        p{
+           font-size: 120%;
+           text-align: center;
+        }
+        
+        footer {
+            size: 30%;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        .ad {
+            width: 50%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>맛집 리스트</h1>
+            
+            <p1>작성자: 이희승</p1>
+        </header>
+        
+        <div class="row">
+            
+            <a href="tamtam.html">
+                <div class="box">
+                    <p>땀땀</p>
+                </div>
+            </a>
+            
+
+            <a href="fiveguys.html">
+                <div class="box">
+                    <p>파이브가이즈</p>
+                </div>
+
+            </a>
+
+            <a href="haidilao.html">
+                <div class="box">
+                    <p>하이디라오</p>
+                </div>
+            </a>
+
+        </div>
+        
+        <footer>
+            <img class="ad" src="Gemini_Generated_Image_6usvs46usvs46usv.png" 
+            alt="진짜 광고">
+        </footer>
+
+
+    </div>
+
+    
+</body>
+</html>
